@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", "Oswald", "Playfair-Display";
+    background-color: green;
+}
+
+.all-content{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto, auto, auto;
+    background-color: bisque;
+}
+
+header{
+    position: relative;
+    height: 88px;
+}
+
+.content-container{
+    position: relative;
+    background-color: aliceblue;
+    height: 100px;
+}
+
+footer{
+    position: relative;
+    height: 88px;
+    background-color: red;
+    bottom: 0;
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    box-shadow: 0px 0px 2px darkgray;
+    margin: 0;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-list-left{
+    display: flex;
+
+}
+
+.nav-list-right{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-icon{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+
+.nav-item:first-child{
+    margin-left: 11rem;
+}
+
+.nav-icon:last-child{
+    margin-right: 13rem;
+}
