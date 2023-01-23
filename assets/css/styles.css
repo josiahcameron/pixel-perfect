@@ -1,4 +1,4 @@
-* {
+*, ::before, ::after {
     box-sizing: border-box;
 }
 body {
@@ -8,27 +8,22 @@ body {
 
 .all-content{
     display: grid;
-    gap: 20px;
-    grid-template-rows: auto, auto, auto;
+    grid-template-rows: 80px auto 430px;
+    gap: 1px;
     background-color: bisque;
 }
 
 header{
     position: relative;
-    height: 88px;
-}
-
-.content-container{
-    position: relative;
-    background-color: aliceblue;
-    height: 100px;
+    grid-area: 1 / 1 / span 1 /span  1;
+    height: 80px;
 }
 
 footer{
-    position: relative;
-    height: 88px;
+    grid-area: 3 / 1 / span 1 / span 1;
+    height: 100%;
     background-color: red;
-    bottom: 0;
+    margin: 0 0 0 0;
 }
 
 navbar {
@@ -67,4 +62,70 @@ navbar {
 
 .nav-icon:last-child{
     margin-right: 13rem;
+}
+
+.content-container{
+    display: grid;
+    gap: 2.7%;
+    grid-area: 2 / 1 / span 1 / span 1;  
+    background-color: aliceblue;
+    margin-top: 3.4%;
+    margin-left: 10.4%;
+    margin-right: 10.4%;
+    align-items: stretch;
+    height: 5343px;
+}
+
+.content-left{  
+    grid-area: 1 / 1 / span 1 / span 1;
+    width: 994px;
+    background-color: blueviolet;
+}
+
+.content-right{
+    display: flex;
+    grid-area: 1 / 2 / span 1 / span 1;
+    flex-direction: column;
+    width: 478px;
+    background-color: gold;
+    gap: 50px 0;
+}
+
+.content-left > .content-inner{
+    width: 100%;
+    margin-bottom: 70px;
+    background-color: blue;
+}
+
+.content-right > .content-inner{
+    display: flex;
+    height: 13.4%;
+    background-color: blue;
+}
+
+.page-bottom{
+    text-align: center;
+    vertical-align: m;
+}
+
+.follow-us{
+    padding-top: 46px;
+    height: 105px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+
+}
+
+.sample-images{
+    display: flex;
+    background-color: blue;
+    height: 240px;
+}
+
+.footer{
+    padding-top: 35px;
+    height: 85px;
+    background-color: black;
+    color: white;
 }
