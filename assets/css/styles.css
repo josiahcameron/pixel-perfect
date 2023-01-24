@@ -8,7 +8,7 @@ body {
 
 .all-content{
     display: grid;
-    grid-template-rows: 80px auto 430px;
+    grid-template-rows: 80px auto 225px 430px ;
     gap: 1px;
     background-color: bisque;
 }
@@ -20,7 +20,7 @@ header{
 }
 
 footer{
-    grid-area: 3 / 1 / span 1 / span 1;
+    grid-area: 4 / 1 / span 1 / span 1;
     height: 100%;
     background-color: red;
     margin: 0 0 0 0;
@@ -69,17 +69,17 @@ navbar {
     gap: 2.7%;
     grid-area: 2 / 1 / span 1 / span 1;  
     background-color: aliceblue;
-    margin-top: 3.4%;
+    margin-top: 67px;
     margin-left: 10.4%;
-    margin-right: 10.4%;
+    margin-right: 18%;
     align-items: stretch;
-    height: 5343px;
+    height: 5117px;
 }
 
 .content-left{  
     grid-area: 1 / 1 / span 1 / span 1;
     width: 994px;
-    background-color: blueviolet;
+    height: 5117px;
 }
 
 .content-right{
@@ -88,13 +88,16 @@ navbar {
     flex-direction: column;
     width: 478px;
     background-color: gold;
-    gap: 50px 0;
+    gap: 53px 0;
 }
 
+
 .content-left > .content-inner{
+    height: 1221px;
     width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 66px;
     background-color: blue;
+    box-shadow: 0px 0px 2px darkgray;
 }
 
 .content-right > .content-inner{
@@ -128,4 +131,44 @@ navbar {
     height: 85px;
     background-color: black;
     color: white;
+}
+
+.content-left div:nth-child(1){
+    grid-row-start: 1;
+}
+.content-left div:nth-child(2){
+    grid-row-start: 2;
+}
+.content-left div:nth-child(3){
+    grid-row-start: 3;
+    height: 1257px;
+}
+.content-left div:nth-child(4){
+    grid-row-start: 4;
+}
+
+.content-right div:nth-child(1){
+    grid-row-start: 1;
+    height: 721px;
+}
+.content-right div:nth-child(2){
+    grid-row-start: 2;
+    height: 1304px;
+}
+.content-right div:nth-child(3){
+    grid-row-start: 3;
+    height: 680px;
+}
+.content-right div:nth-child(4){
+    grid-row-start: 4;
+    height: 760px;
+}
+.page-buttons{
+    grid-area: 3 / 1 / span 1 / span 1;
+    background-color: brown;
+    height: 226px;
+    display: flex;
+    background: white;
+    margin: 0;
+    height: 100%;
 }
