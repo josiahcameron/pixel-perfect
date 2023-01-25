@@ -8,7 +8,7 @@ body {
 
 .all-content{
     display: grid;
-    grid-template-rows: 80px auto 225px 430px ;
+    grid-template-rows: 80px auto 237px 430px ;
     gap: 1px;
     background-color: bisque;
 }
@@ -16,7 +16,7 @@ body {
 header{
     position: relative;
     grid-area: 1 / 1 / span 1 /span  1;
-    height: 80px;
+    height: 85px;
 }
 
 footer{
@@ -48,11 +48,13 @@ navbar {
 .nav-item{
     list-style: none;
     margin-right: 2rem;
+    letter-spacing: 1px;
 }
 
 .nav-icon{
     list-style: none;
     margin-left: 2rem;
+    letter-spacing: -7px;
 }
 
 
@@ -62,6 +64,7 @@ navbar {
 
 .nav-icon:last-child{
     margin-right: 13rem;
+    font-weight: bold;
 }
 
 .content-container{
@@ -69,16 +72,16 @@ navbar {
     gap: 2.7%;
     grid-area: 2 / 1 / span 1 / span 1;  
     background-color: aliceblue;
-    margin-top: 67px;
+    margin-top: 76px;
     margin-left: 10.4%;
-    margin-right: 18%;
+    margin-right: 209px;
     align-items: stretch;
-    height: 5117px;
+    height: 5413px;
 }
 
 .content-left{  
     grid-area: 1 / 1 / span 1 / span 1;
-    width: 994px;
+    width: 1050px;
     height: 5117px;
 }
 
@@ -86,17 +89,17 @@ navbar {
     display: flex;
     grid-area: 1 / 2 / span 1 / span 1;
     flex-direction: column;
-    width: 478px;
+    width: 504px;
     background-color: gold;
     gap: 53px 0;
 }
 
 
 .content-left > .content-inner{
-    height: 1221px;
+    height: 1290px;
     width: 100%;
-    margin-bottom: 66px;
-    background-color: blue;
+    margin-bottom: 71px;
+
     box-shadow: 0px 0px 2px darkgray;
 }
 
@@ -113,7 +116,7 @@ navbar {
 
 .follow-us{
     padding-top: 46px;
-    height: 105px;
+    height: 113px;
     background-color: white;
     font-size: 20px;
     color: black;
@@ -123,12 +126,12 @@ navbar {
 .sample-images{
     display: flex;
     background-color: blue;
-    height: 240px;
+    height: 252px;
 }
 
 .footer{
     padding-top: 35px;
-    height: 85px;
+    height: 92px;
     background-color: black;
     color: white;
 }
@@ -141,7 +144,7 @@ navbar {
 }
 .content-left div:nth-child(3){
     grid-row-start: 3;
-    height: 1257px;
+    height: 1329px;
 }
 .content-left div:nth-child(4){
     grid-row-start: 4;
@@ -149,26 +152,43 @@ navbar {
 
 .content-right div:nth-child(1){
     grid-row-start: 1;
-    height: 721px;
+    height: 762px;
 }
 .content-right div:nth-child(2){
     grid-row-start: 2;
-    height: 1304px;
+    height: 1378px;
 }
 .content-right div:nth-child(3){
     grid-row-start: 3;
-    height: 680px;
+    height: 719px;
 }
 .content-right div:nth-child(4){
     grid-row-start: 4;
-    height: 760px;
+    height: 802px;
 }
 .page-buttons{
     grid-area: 3 / 1 / span 1 / span 1;
     background-color: brown;
-    height: 226px;
+    height: 238px;
     display: flex;
     background: white;
     margin: 0;
     height: 100%;
+}
+
+.left-inner-image {
+    width: 100%;
+    height: 665px;
+    background-color: crimson;
+}
+
+.left-inner-box {
+    width: 100%;
+    height: 627px;
+    background-color: green;
+    margin-top: -5px;
+}
+
+.content-inner-3 > .left-inner-image{
+    height: 702px;
 }
