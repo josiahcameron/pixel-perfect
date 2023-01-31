@@ -40,6 +40,13 @@ h3{
     font-size: xx-large;
 }
 
+h4{
+    text-align: center;
+    margin-top: 9%;
+    font-size: x-large;
+    font-family: "Oswald";
+}
+
 p{
 }
 
@@ -80,7 +87,7 @@ button {
 }
 
 .nav-icon:last-child{
-    margin-right: 13rem;
+    margin-right: 14.5rem;
     font-weight: bold;
 }
 
@@ -275,8 +282,30 @@ button {
     align-content:;
 }
 
-@media (width <= 400px){
+.ig-feed-photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2px;
+    background-color: coral;
+    width: 84%;
+    height: 65%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}
+
+.ig-photo{
+    background-color: black;
+    width: 48%;
+    height: 31%;
+}
+
+@media screen and (width <= 400px){
     .content-container{
+        display: flex;
         flex-direction: column;
+
+    
     }
 }
