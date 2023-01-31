@@ -6,9 +6,6 @@ body {
     background-color: green;
 }
 
-.all-content{
-    background-color: bisque;
-}
 
 header{
     height: 85px;
@@ -58,6 +55,7 @@ button {
 
 .nav-list-left{
     display: flex;
+
 }
 
 .nav-list-right{
@@ -67,7 +65,7 @@ button {
 .nav-item{
     list-style: none;
     margin-right: 2rem;
-    letter-spacing: 1px;
+    letter-spacing: .9px;
 }
 
 .nav-icon{
@@ -92,18 +90,21 @@ button {
     gap: 2.6%;
     background-color: aliceblue;
     margin-top: 3.6%;
-    margin-left: 10.4%;
-    margin-right: 9.8%;
+    margin-left: 10.9%;
+    margin-right: 10%;
     align-items: stretch;
-    flex-shrink: 0;
+
     height: 5413px;
 }
+
+
 
 .content-left{  
     display: flex;
     flex-direction: column;
     text-align: center;
-    min-width: 65.7%;
+    min-width: 65%;
+    max-width: 65%;
     height: 5117px;
 }
 
@@ -272,4 +273,10 @@ button {
     display: flex;
     list-style: none;
     align-content:;
+}
+
+@media (width <= 400px){
+    .content-container{
+        flex-direction: column;
+    }
 }
