@@ -16,6 +16,7 @@ footer{
     margin: 0 0 0 0;
 }
 
+
 article{
 
 }
@@ -46,6 +47,8 @@ h4{
     font-size: x-large;
     font-family: "Oswald";
 }
+
+
 
 p{
 }
@@ -100,7 +103,6 @@ button {
     margin-left: 10.9%;
     margin-right: 10%;
     align-items: stretch;
-
     height: 5413px;
 }
 
@@ -128,7 +130,6 @@ button {
     height: 35%;
     width: 100%;
     margin-bottom: 71px;
-
     box-shadow: 0px 0px 2px darkgray;
 }
 
@@ -156,6 +157,7 @@ button {
 .sample-images{
     display: flex;
     background-color: blue;
+    gap: 0%;
     height: 252px;
 }
 
@@ -170,19 +172,7 @@ button {
     color: white;
 }
 
-.content-left div:nth-child(1){
 
-}
-.content-left div:nth-child(2){
-
-}
-.content-left div:nth-child(3){
-
-    height: 1329px;
-}
-.content-left div:nth-child(4){
-    grid-row-start: 4;
-}
 
 .content-right div:nth-child(1){
 
@@ -282,6 +272,36 @@ button {
     align-content:;
 }
 
+.latest-posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+    background-color: coral;
+    width: 84%;
+    max-height: 77%;
+    min-height: 17%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    padding: 0;
+}
+
+
+.lpost{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-height: 100px;
+    border: 2px;
+}
+
+.latest-post{
+    background-color: black;
+    width: 35%;
+    height: 108px;
+}
+
 .ig-feed-photos{
     display: flex;
     flex-wrap: wrap;
@@ -289,16 +309,33 @@ button {
     gap: 2px;
     background-color: coral;
     width: 84%;
-    height: 65%;
+    max-height: 79%;
     align-self: center;
     margin-top: 10px;
     margin-bottom: 10%;
+    border: black 5px solid;
 }
 
 .ig-photo{
     background-color: black;
     width: 48%;
     height: 31%;
+}
+
+.lpost-text{
+    max-height: 100px;
+    background-color: chartreuse;
+    padding-right: 10px;
+}
+
+h5{
+    margin: 3px 0 17px 10px;
+    font-size: medium;
+}
+
+.lpost-text time {
+    margin: 0 0 0 10px;
+
 }
 
 @media screen and (width <= 400px){
