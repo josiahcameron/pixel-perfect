@@ -1,0 +1,70 @@
+@import url("_variables.css");
+
+header {
+	height: 85px;
+}
+
+nav {
+	justify-content: space-between;
+	box-shadow: 0px 0px 2px darkgray;
+	margin: 0;
+	align-items: center;
+	height: 100%;
+}
+
+.navbar,
+.nav-list-left,
+.nav-list-right {
+	display: flex;
+}
+
+.nav-list-left li a {
+	display: block;
+	color: var(--dark-grey);
+	font-weight: 1000;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 20px 12px;
+	margin-right: 1rem;
+	letter-spacing: 1.7px;
+}
+
+.navbar-list-right {
+	display: block;
+	color: var(--dark-grey);
+	font-size: 13px;
+	font-weight: 700;
+	width: 13px;
+	height: 13px;
+	padding: 20px 0 20px 3px;
+	margin-left: 2rem;
+	letter-spacing: -7px;
+}
+
+.nav-list-left:first-child {
+	margin-left: 11.6rem;
+}
+
+.nav-list-right li {
+	padding-right: 8px;
+	padding-left: 5px;
+	margin-right: 0.65rem;
+	color: #aaaaaa;
+}
+
+.nav-list-right li:nth-child(5) {
+	margin-right: 1.5rem;
+	font-weight: bold;
+}
+
+.nav-list-right:last-child {
+	margin-right: 11.3rem;
+	font-weight: bold;
+	position: relative;
+	left: 1px;
+}
+
+.navbar a:hover {
+	color: var(--primary-color);
+	cursor: pointer;
+}

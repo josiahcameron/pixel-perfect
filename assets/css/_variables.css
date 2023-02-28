@@ -1,0 +1,8 @@
+:root {
+    --primary-color: rgb(218, 82, 32);
+    --overlay: rgba(218, 82, 32, 0.75);
+    --primary-font: "Lato", sans-serif;
+    --secondary-font: "Oswald", sans-serif;
+    --dark-grey: #444;
+    --light-grey: #777;
+}

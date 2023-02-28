@@ -1,0 +1,46 @@
+@import url('_variables.css');
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    min-width: 504px;
+    background-color: red;
+    gap: 57px 0;
+}
+
+.content-right div:nth-child(1) {
+
+    height: 762px;
+}
+
+.content-right div:nth-child(2) {
+
+    height: 1379px;
+}
+
+.content-right div:nth-child(3) {
+
+    height: 719px;
+}
+
+.content-right div:nth-child(4) {
+
+    height: 803px;
+}
+
+.page-buttons {
+    min-height: 238px;
+    display: flex;
+    margin: 0;
+    height: 100%;
+}
+
+
+.page-button {
+    display: flex;
+    width: 100%;
+    padding-top: 52px;
+    padding-left: 209px;
+    gap: 4px;
+}
+

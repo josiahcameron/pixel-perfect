@@ -1,0 +1,146 @@
+@import url("_variables.css");
+
+.content-container {
+	display: flex;
+	flex-direction: row;
+	gap: 2.6%;
+	background-color: aliceblue;
+	margin-top: 3.6%;
+	margin-left: 10.9%;
+	margin-right: 10%;
+	align-items: stretch;
+	height: 5413px;
+}
+
+.content-left {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	min-width: 65%;
+	max-width: 65%;
+	height: 5117px;
+}
+
+.content-left > .content-inner {
+	height: 35%;
+	width: 100%;
+	margin-bottom: 71px;
+	box-shadow: 0px 0px 2px darkgray;
+}
+
+.content-right > .content-inner {
+	display: flex;
+	flex-direction: column;
+	height: 13.4%;
+}
+
+.left-inner-image {
+	width: 100%;
+	height: 665px;
+	margin-bottom: 1rem;
+}
+
+.left-inner-box {
+	width: 100%;
+	height: 570px;
+	margin-top: -10px;
+}
+
+.content-inner-3 > .left-inner-image {
+	height: 702px;
+}
+
+.post-category {
+	color: var(--primary-color);
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.post-header {
+	margin-top: 55px;
+}
+
+.post-header h2 {
+	margin-top: 0;
+	font-weight: 500;
+	font-family: var(--secondary-font);
+}
+
+.post-header h2 a {
+	color: var(--dark-grey);
+	font-size: 33px;
+	letter-spacing: 1.3px;
+}
+
+.post-header h2:hover a {
+	color: var(--primary-color);
+}
+
+.left-text {
+	margin-top: 33px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 51px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.7;
+	letter-spacing: 0.5px;
+}
+
+.left-text p {
+	margin-top: 0;
+	padding-top: 0;
+	text-align: start;
+}
+
+.post-continue-reading {
+	padding-top: 15px;
+	font-weight: 1000;
+	letter-spacing: 2.5px;
+	border-color: rgb(203, 99, 65);
+	border-style: solid;
+	border-width: 2px;
+	width: 245px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+.post-continue-reading a {
+	color: rgb(203, 99, 65);
+	margin-top: 10px;
+}
+
+.article-bottom {
+	border-top: 1px solid #e2e2e2;
+	margin-top: 5.5%;
+	padding-top: 15px;
+	line-height: 1;
+	display: flex;
+}
+
+.article-info {
+	display: flex;
+	justify-content: space-between;
+	gap: 2px;
+	color: var(--light-grey);
+	font-style: italic;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	letter-spacing: 1.7px;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	font-size: 22px;
+}
+
+.nav-icon {
+	margin-top: 10px;
+	margin-left: 23px;
+}
