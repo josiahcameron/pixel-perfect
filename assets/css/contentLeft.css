@@ -6,7 +6,7 @@
 	gap: 2.6%;
 	background-color: aliceblue;
 	margin-top: 3.6%;
-	margin-left: 10.9%;
+	margin-left: 10.5%;
 	margin-right: 10%;
 	align-items: stretch;
 	height: 5413px;
@@ -16,7 +16,7 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	min-width: 65%;
+	min-width: 65.5%;
 	max-width: 65%;
 	height: 5117px;
 }
@@ -38,6 +38,21 @@
 	width: 100%;
 	height: 665px;
 	margin-bottom: 1rem;
+}
+
+.left-inner-image2 {
+	height: 678px;
+	margin-bottom: 0.7rem;
+}
+
+.left-inner-image3 {
+	height: 711px;
+	margin-bottom: 0.7rem;
+}
+
+.left-inner-image4 {
+	height: 675px;
+	margin-bottom: 0.7rem;
 }
 
 .left-inner-box {
@@ -80,14 +95,14 @@
 }
 
 .left-text {
-	margin-top: 33px;
+	margin-top: 29px;
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-bottom: 51px;
+	margin-bottom: 48px;
 	font-size: 20px;
 	font-weight: 500;
-	line-height: 1.7;
-	letter-spacing: 0.5px;
+	line-height: 1.8;
+	letter-spacing: 0.62px;
 }
 
 .left-text p {
@@ -115,10 +130,14 @@
 
 .article-bottom {
 	border-top: 1px solid #e2e2e2;
+	width: 100%;
 	margin-top: 5.5%;
-	padding-top: 15px;
+	padding-top: 12px;
+	padding-right: 5.4%;
+	padding-left: 5.3%;
 	line-height: 1;
 	display: flex;
+	justify-content: space-between;
 }
 
 .article-info {
@@ -128,9 +147,8 @@
 	color: var(--light-grey);
 	font-style: italic;
 	font-size: 16px;
-	display: flex;
 	align-items: center;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 1.7px;
 }
 

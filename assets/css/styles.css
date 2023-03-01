@@ -122,15 +122,6 @@ button {
 	width: 55px;
 }
 
-.article-bottom {
-	border-top: 1px solid gray;
-	margin-top: 5.5%;
-	margin-left: 5%;
-	margin-right: 5%;
-	display: flex;
-	justify-content: space-between;
-}
-
 .latest-posts {
 	display: flex;
 	flex-direction: column;
