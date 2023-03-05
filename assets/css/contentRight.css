@@ -4,7 +4,6 @@
 	display: flex;
 	flex-direction: column;
 	max-width: 507px;
-
 	gap: 57px 0;
 }
 
@@ -24,8 +23,8 @@
 
 .img-circle {
 	position: absolute;
-	top: 280px;
-	right: 310px;
+	top: -147px;
+	right: 97px;
 	width: 275px;
 	height: 275px;
 	border-radius: 50%;
@@ -34,21 +33,23 @@
 }
 
 .aside-top-image {
+	position: relative;
 	width: 100%;
 	max-height: 260px;
 }
 
 .about-me-aside {
-	background-color: antiquewhite;
 	height: 14.3%;
-	border: 1px solid darkgray;
+	box-shadow: 0px 0px 2px darkgray;
+	background-color: white;
+}
+.about-me-img {
+	position: relative;
 }
 
 .about-me-text {
-	margin-top: 134px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	margin-top: 160px;
+	text-align: center;
 	padding: 0 45px 0 45px;
 }
 
@@ -63,51 +64,15 @@ div h2 {
 }
 
 .top-aside-text {
-	margin-top: 30px;
-	text-align: center;
+	margin-top: 28px;
 	font-size: 21px;
 	line-height: 1.6;
-	letter-spacing: 0px;
+	letter-spacing: 0.1px;
 }
 
 .social-share {
 	display: flex;
-}
-
-.content-right div:nth-child(1) {
-	height: 762px;
-}
-
-.content-right div:nth-child(2) {
-	height: 1379px;
-}
-
-.content-right div:nth-child(3) {
-	height: 719px;
-}
-
-.content-right div:nth-child(4) {
-	height: 803px;
-}
-
-.page-buttons {
-	min-height: 238px;
-	display: flex;
-	margin: 0;
-	height: 100%;
-}
-
-.page-button {
-	display: flex;
-	width: 100%;
-	padding-top: 52px;
-	padding-left: 209px;
-	gap: 4px;
-}
-
-.social-share {
-	display: flex;
-	margin-top: 18px;
+	margin-top: 37px;
 }
 
 .social-share > li {
@@ -138,6 +103,7 @@ div h2 {
 .popular-posts-aside {
 	background-color: white;
 	padding: 0 40px 0 40px;
+	box-shadow: 0px 0px 2px darkgray;
 }
 .popular-posts-aside > h4 {
 	font-size: 26px;
@@ -173,9 +139,7 @@ img.popular-post {
 .latest-posts-aside {
 	background-color: white;
 	padding: 10px 40px 0 40px;
-}
-
-.lastest-post-container {
+	box-shadow: 0px 0px 2px darkgray;
 }
 
 .latest-post-content {
@@ -213,4 +177,29 @@ img.popular-post {
 
 .latest-post-content.last {
 	border: none;
+}
+
+.instagram-feed-aside {
+	background-color: white;
+	padding: 10px 40px 0 40px;
+	max-height: 15.2%;
+	box-shadow: 0px 0px 2px darkgray;
+}
+
+.instagram-feed-aside h4 {
+	letter-spacing: 1px;
+	margin-bottom: 40px;
+}
+
+.instagram-feed-photos {
+	display: grid;
+	grid-template-rows: 23% 23% 23%;
+	grid-template-columns: 48% 48%;
+	grid-column-gap: 4%;
+	grid-row-gap: 2.5%;
+}
+
+.ig-photo {
+	width: 100%;
+	height: 100%;
 }

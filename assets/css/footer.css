@@ -1,0 +1,42 @@
+footer {
+	margin: 0 0 0 0;
+}
+
+.follow-us {
+	padding-top: 40px;
+	min-height: 113px;
+	background-color: white;
+	font-family: Oswald;
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+}
+
+.sample-images {
+	display: flex;
+	gap: 0%;
+	max-height: 254px;
+}
+
+.bottom-image {
+	width: calc(100% / 8);
+	max-height: 100%;
+}
+
+.footer {
+	padding-top: 35px;
+	height: 92px;
+}
+
+.more-pages {
+	width: 55px;
+}
+
+.page-bottom {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+	letter-spacing: 0.9px;
+	color: white;
+	background-color: rgb(33, 33, 33);
+}

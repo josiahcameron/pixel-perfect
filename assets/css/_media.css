@@ -1,6 +1,26 @@
-@media screen and (width <=400px) {
+@media (max-width: 1500px) {
 	.content-container {
-		display: flex;
-		flex-direction: column;
+		/* display: flex;
+		flex-direction: column; */
+		display: block;
+		width: 100%;
+		align-items: center;
+		height: auto;
+	}
+
+	.content-left {
+		display: block;
+	}
+
+	.sidebar {
+		display: block;
+		margin-top: 50px;
+	}
+	.below-content {
+		margin-bottom: 4000px;
+	}
+
+	nav > ul {
+		visibility: hidden;
 	}
 }

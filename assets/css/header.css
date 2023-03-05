@@ -28,10 +28,12 @@ nav {
 	margin-right: 1rem;
 	letter-spacing: 1.7px;
 }
-
+.nav-list-right > li > a > .fa {
+	color: #444;
+}
 .navbar-list-right {
 	display: block;
-	color: var(--dark-grey);
+
 	font-size: 13px;
 	font-weight: 700;
 	width: 13px;
