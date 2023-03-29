@@ -1,5 +1,3 @@
-@import url("_variables.css");
-
 .content-container {
 	display: flex;
 	flex-direction: row;
