@@ -1,11 +1,10 @@
-@import url("media.css");
-@import url("variables.css");
 @import url("contentLeft.css");
 @import url("contentRight.css");
 @import url("footer.css");
 @import url("header.css");
 @import url("main.css");
-
+@import url("media.css");
+@import url("variables.css");
 html {
 	box-sizing: border-box;
 }
